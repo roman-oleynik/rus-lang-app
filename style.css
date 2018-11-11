@@ -1,0 +1,50 @@
+.choose-variant {
+	text-align: center;
+}
+.variants-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.label-input {
+	display: flex;
+}
+.start-test {
+	margin: 10px;
+}
+
+.correct-wrong {
+	display: flex;
+	
+}
+.stage-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.stage-3 {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+.stage-4 {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+.stage-5 {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+.correct {
+	height: 20px;
+	width: 30px;
+	border: 1px solid green;
+}
+.wrong {
+	height: 20px;
+	width: 30px;
+	border: 1px solid red;
+}

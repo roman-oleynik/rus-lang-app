@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+<!--
+		<div class="stage-1">
+			<input type="button" value="Начать" class="start">
+		</div>
+-->
+		
+		<div class="stage-2">
+			<h2 class="choose-variant">Выбрать вариант</h2>
+			<div class="variants-column">
+				<div class="label-input">
+					<input name="variant" type="radio" class="variant-radio variant-1"><label for="var-1">Вариант 1</label>
+				</div>
+				<div class="label-input">
+					<input name="variant" type="radio" class="variant-radio variant-2"><label for="var-2">Вариант 2</label>
+				</div>
+				<div class="label-input">
+					<input name="variant" type="radio" class="variant-radio variant-3"><label for="var-3">Вариант 3</label>
+				</div>
+<!--
+				<div class="label-input">
+					<input name="variant" type="radio" class="variant-radio variant-4"><label for="var-4">Вариант 4</label>
+				</div>
+				<div class="label-input">
+					<input name="variant" type="radio" class="variant-radio variant-5"><label for="var-5">Вариант 5</label>
+				</div>
+				<div class="label-input">
+					<input name="variant" type="radio" class="variant-radio variant-6"><label for="var-6">Вариант 6</label>
+				</div>
+				<div class="label-input">
+					<input name="variant" type="radio" class="variant-radio variant-7"><label for="var-7">Вариант 7</label>
+				</div>
+				<div class="label-input">
+					<input name="variant" type="radio" class="variant-radio variant-8"><label for="var-9">Вариант 9</label>
+				</div>
+				<div class="label-input">
+					<input name="variant" type="radio" class="variant-radio variant-10"><label for="var-10">Вариант 10</label>
+				</div>
+-->
+				
+				
+			</div>
+			<input type="button" value="Начать тест" class="start-test">
+			
+			
+			
+			
+		</div>
+		<div class="stage-3">
+				<input type="button" value="Menu" class="menu-button">
+				<div class="correct-wrong">
+					<div class="correct">0</div>
+					<div class="wrong">0</div>
+				</div>
+				<div class="question-field"></div>
+				<div class="variants-field"></div>
+				<input type="button" value="Answer" class="answer-button">
+				<div class="question-indicators"></div>
+		</div>
+		<div class="stage-4">
+			
+			<h3>Тест закончен</h3>
+			<span class="correct-answers"></span>
+			<span class="wrong-answers"></span>
+			<input type="button" value="Menu" class="menu-button">
+			<input type="button" value="Посмотреть ошибки" class="diary">
+		</div>
+		<div class="stage-5">
+			<h2>Errors</h2>
+			<input type="button" value="Закрыть" class="close">
+			<div class="errors">
+				
+			</div>
+		</div>
+	</div>
+	<script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
